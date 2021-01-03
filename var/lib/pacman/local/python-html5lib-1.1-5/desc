@@ -1,0 +1,47 @@
+%NAME%
+python-html5lib
+
+%VERSION%
+1.1-5
+
+%BASE%
+python-html5lib
+
+%DESC%
+A Python HTML parser/tokenizer based on the WHATWG HTML5 spec
+
+%URL%
+https://github.com/html5lib
+
+%ARCH%
+any
+
+%BUILDDATE%
+1607027729
+
+%INSTALLDATE%
+1609550669
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%SIZE%
+1226511
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+python-six
+python-webencodings
+
+%OPTDEPENDS%
+python-lxml: lxml treebuilder
+python-genshi: genshi treewalker
+

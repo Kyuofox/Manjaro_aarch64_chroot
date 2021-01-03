@@ -1,0 +1,835 @@
+[2020-11-24T22:30:56+0100] [PACMAN] Running 'pacman -r /var/lib/manjaro-arm-tools/pkg/aarch64 -Sy --cachedir=/var/lib/manjaro-arm-tools/pkg/aarch64/var/cache/pacman/pkg --noconfirm --config=/usr/share/manjaro-arm-tools/lib/pacman.conf.aarch64 pacman'
+[2020-11-24T22:30:56+0100] [PACMAN] synchronizing package lists
+[2020-11-24T22:33:02+0100] [ALPM] transaction started
+[2020-11-24T22:33:03+0100] [ALPM] installed linux-api-headers (5.8-1)
+[2020-11-24T22:33:03+0100] [ALPM] installed tzdata (2020d-1)
+[2020-11-24T22:33:03+0100] [ALPM] installed iana-etc (20201012-1)
+[2020-11-24T22:33:03+0100] [ALPM] installed filesystem (2020.09-2)
+[2020-11-24T22:33:06+0100] [ALPM] installed glibc (2.32-2)
+[2020-11-24T22:33:14+0100] [ALPM] installed gcc-libs (10.2.0-1)
+[2020-11-24T22:33:15+0100] [ALPM] installed ncurses (6.2-1)
+[2020-11-24T22:33:15+0100] [ALPM] installed readline (8.0.004-1)
+[2020-11-24T22:33:15+0100] [ALPM] installed bash (5.0.018-1)
+[2020-11-24T22:33:15+0100] [ALPM] installed attr (2.4.48-3)
+[2020-11-24T22:33:16+0100] [ALPM] installed acl (2.2.53-3)
+[2020-11-24T22:33:16+0100] [ALPM] installed bzip2 (1.0.8-4)
+[2020-11-24T22:33:16+0100] [ALPM] installed expat (2.2.10-2)
+[2020-11-24T22:33:16+0100] [ALPM] installed lz4 (1:1.9.2-2)
+[2020-11-24T22:33:16+0100] [ALPM] installed gdbm (1.18.1-3)
+[2020-11-24T22:33:16+0100] [ALPM] installed db (5.3.28-5)
+[2020-11-24T22:33:16+0100] [ALPM] installed libxcrypt (4.4.17-1)
+[2020-11-24T22:33:20+0100] [ALPM] installed perl (5.32.0-3)
+[2020-11-24T22:33:22+0100] [ALPM] installed openssl (1.1.1.h-1)
+[2020-11-24T22:33:22+0100] [ALPM] installed xz (5.2.5-1)
+[2020-11-24T22:33:22+0100] [ALPM] installed zlib (1:1.2.11-4)
+[2020-11-24T22:33:23+0100] [ALPM] installed zstd (1.4.5-1)
+[2020-11-24T22:33:23+0100] [ALPM] installed libarchive (3.4.3-1)
+[2020-11-24T22:33:23+0100] [ALPM] installed gmp (6.2.0-1)
+[2020-11-24T22:33:23+0100] [ALPM] installed util-linux-libs (2.36.1-3)
+[2020-11-24T22:33:23+0100] [ALPM] installed e2fsprogs (1.45.6-3)
+[2020-11-24T22:33:23+0100] [ALPM] installed libsasl (2.1.27-3)
+[2020-11-24T22:33:23+0100] [ALPM] installed libldap (2.4.54-1)
+[2020-11-24T22:33:23+0100] [ALPM] installed keyutils (1.6.3-1)
+[2020-11-24T22:33:24+0100] [ALPM] installed krb5 (1.18.2-1)
+[2020-11-24T22:33:24+0100] [ALPM] installed libtirpc (1.2.6-1)
+[2020-11-24T22:33:24+0100] [ALPM] installed pambase (20200721.1-2)
+[2020-11-24T22:33:24+0100] [ALPM] installed libcap-ng (0.8-1)
+[2020-11-24T22:33:24+0100] [ALPM] installed audit (2.8.5-6)
+[2020-11-24T22:33:24+0100] [ALPM] installed pam (1.5.0-1)
+[2020-11-24T22:33:24+0100] [ALPM] installed libcap (2.45-2)
+[2020-11-24T22:33:25+0100] [ALPM] installed coreutils (8.32-1)
+[2020-11-24T22:33:25+0100] [ALPM] installed findutils (4.7.0-2)
+[2020-11-24T22:33:25+0100] [ALPM] installed libtasn1 (4.16.0-1)
+[2020-11-24T22:33:25+0100] [ALPM] installed libffi (3.3-4)
+[2020-11-24T22:33:25+0100] [ALPM] installed libp11-kit (0.23.21-1)
+[2020-11-24T22:33:25+0100] [ALPM] installed libgpg-error (1.39-1)
+[2020-11-24T22:33:25+0100] [ALPM] installed libgcrypt (1.8.7-1)
+[2020-11-24T22:33:25+0100] [ALPM] installed systemd-libs (246.6-1.1)
+[2020-11-24T22:33:25+0100] [ALPM] installed p11-kit (0.23.21-1)
+[2020-11-24T22:33:26+0100] [ALPM] installed ca-certificates-utils (20181109-4)
+[2020-11-24T22:33:26+0100] [ALPM] installed ca-certificates-mozilla (3.59-1)
+[2020-11-24T22:33:26+0100] [ALPM] installed ca-certificates (20181109-4)
+[2020-11-24T22:33:26+0100] [ALPM] installed libssh2 (1.9.0-2)
+[2020-11-24T22:33:26+0100] [ALPM] installed libunistring (0.9.10-3)
+[2020-11-24T22:33:26+0100] [ALPM] installed libidn2 (2.3.0-1)
+[2020-11-24T22:33:26+0100] [ALPM] installed libpsl (0.21.1-1)
+[2020-11-24T22:33:26+0100] [ALPM] installed libnghttp2 (1.41.0-1)
+[2020-11-24T22:33:26+0100] [ALPM] installed curl (7.73.0-1)
+[2020-11-24T22:33:26+0100] [ALPM] installed npth (1.6-2)
+[2020-11-24T22:33:26+0100] [ALPM] installed libksba (1.4.0-2)
+[2020-11-24T22:33:26+0100] [ALPM] installed libassuan (2.5.4-1)
+[2020-11-24T22:33:27+0100] [ALPM] installed pcre (8.44-1)
+[2020-11-24T22:33:27+0100] [ALPM] installed glib2 (2.66.2-1)
+[2020-11-24T22:33:27+0100] [ALPM] installed libsecret (0.20.4-1)
+[2020-11-24T22:33:27+0100] [ALPM] installed pinentry (1.1.0-5)
+[2020-11-24T22:33:28+0100] [ALPM] installed nettle (3.6-1)
+[2020-11-24T22:33:29+0100] [ALPM] installed gnutls (3.6.15-1)
+[2020-11-24T22:33:29+0100] [ALPM] installed sqlite (3.33.0-2)
+[2020-11-24T22:33:30+0100] [ALPM] installed gnupg (2.2.23-1)
+[2020-11-24T22:33:30+0100] [ALPM] installed gpgme (1.15.0-1)
+[2020-11-24T22:33:30+0100] [ALPM] installed archlinux-keyring (20201028-1)
+[2020-11-24T22:33:30+0100] [ALPM] installed archlinuxarm-keyring (20140119-1)
+[2020-11-24T22:33:30+0100] [ALPM] installed manjaro-keyring (20201029-1)
+[2020-11-24T22:33:30+0100] [ALPM] installed manjaro-arm-keyring (20200210-1)
+[2020-11-24T22:33:30+0100] [ALPM] installed libnsl (1.3.0-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python (3.8.6-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-npyscreen (4.10.5-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-urllib3 (1.25.10-2)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-appdirs (1.4.4-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-pyparsing (2.4.7-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-six (1.15.0-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-packaging (20.4-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-ordered-set (4.0.2-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-setuptools (1:50.3.2-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-chardet (3.0.4-5)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-idna (2.10-1)
+[2020-11-24T22:33:34+0100] [ALPM] installed python-requests (2.24.0-1)
+[2020-11-24T22:33:35+0100] [ALPM] installed pacman-mirrors (4.16.5-1)
+[2020-11-24T22:33:35+0100] [ALPM] installed mpfr (4.1.0-1)
+[2020-11-24T22:33:35+0100] [ALPM] installed gawk (5.1.0-1)
+[2020-11-24T22:33:35+0100] [ALPM] installed pacman (5.2.2-3)
+[2020-11-24T22:33:35+0100] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m To import the data required by pacman for package verification run:[1;0m
+[2020-11-24T22:33:35+0100] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m `pacman-key --init; pacman-key --populate archlinux manjaro`[1;0m
+[2020-11-24T22:33:35+0100] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m See: https://www.archlinux.org/news/having-pacman-verify-packages[1;0m
+[2020-11-24T22:33:35+0100] [ALPM] transaction completed
+[2020-11-24T22:33:35+0100] [ALPM] running '40-update-ca-trust.hook'...
+[2020-11-24T22:33:38+0100] [ALPM] running 'detect-old-perl-modules.hook'...
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET] perl: warning: Setting locale failed.
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET] perl: warning: Please check that your locale settings:
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET] 	LANGUAGE = "",
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET] 	LC_ALL = (unset),
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET] 	LANG = "da_DK.UTF-8"
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET]     are supported and installed on your system.
+[2020-11-24T22:33:38+0100] [ALPM-SCRIPTLET] perl: warning: Falling back to the standard locale ("C").
+[2020-11-24T22:33:38+0100] [ALPM] running 'pacman-mirrors-install.hook'...
+[2020-11-24T22:33:40+0100] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Downloading mirrors from repo.manjaro.org
+[2020-11-24T22:33:40+0100] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Using default mirror file
+[2020-11-24T22:33:40+0100] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Querying mirrors - This may take some time
+[2020-11-24T22:33:41+0100] [ALPM-SCRIPTLET]   ..... Hungary        : https://quantum-mirror.hu/mirrors/pub/manjaro/  [1;32m0.735[1;m
+[2020-11-24T22:33:42+0100] [ALPM-SCRIPTLET]   ..... Hungary        : http://quantum-mirror.hu/mirrors/pub/manjaro/  [1;32m1.393[1;m
+[2020-11-24T22:33:43+0100] [ALPM-SCRIPTLET]   ..... Poland         : https://mirror.tuchola-dc.pl/manjaro/  [1;32m1.006[1;m
+[2020-11-24T22:33:44+0100] [ALPM-SCRIPTLET]   ..... Bulgaria       : https://manjaro.ipacct.com/manjaro/  [1;32m1.006[1;m
+[2020-11-24T22:33:45+0100] [ALPM-SCRIPTLET]   ..... Canada         : https://osmirror.org/manjaro/  [1;32m1.381[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET]   ..... United_Kingdom : https://uk.mirrors.fossho.st/manjaro/  [1;32m0.695[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET]   ..... United_Kingdom : http://uk.mirrors.fossho.st/manjaro/  [1;32m0.238[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Writing mirror list
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::United_Kingdom  : https://uk.mirrors.fossho.st/manjaro/arm-stable[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::Poland          : https://mirror.tuchola-dc.pl/manjaro/arm-stable[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::Bulgaria        : https://manjaro.ipacct.com/manjaro/arm-stable[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::Canada          : https://osmirror.org/manjaro/arm-stable[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::Hungary         : https://quantum-mirror.hu/mirrors/pub/manjaro/arm-stable[1;m
+[2020-11-24T22:33:46+0100] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Mirror list generated and saved to: /etc/pacman.d/mirrorlist
+[2020-11-24T22:33:47+0100] [ALPM-SCRIPTLET] hint: use `pacman-mirrors` to generate and update your pacman mirrorlist.
+[2021-01-01T17:28:37+0000] [PACMAN] Running 'pacman -Syu --noconfirm base base-devel'
+[2021-01-01T17:28:37+0000] [PACMAN] synchronizing package lists
+[2021-01-01T17:28:40+0000] [ALPM] transaction started
+[2021-01-01T17:28:40+0000] [ALPM] upgraded manjaro-keyring (20201029-1 -> 20201216-1)
+[2021-01-01T17:28:40+0000] [ALPM-SCRIPTLET] ==> Appending keys from manjaro.gpg...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key B4663188A692DB1E45A98EE95BD96CC4247B52CC...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 76C6E477042BFE985CC220BD9C08A255442FAFF0...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 7C89F4D439B2BFACF425107B62443D89B35859F8...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1E7908935AAB9A00D6B47503363DFFFD59152F77...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 04BB537F5BC2D399BFA72F8F17C752B61B2F2E90...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 5A97ED6B72418199F0C22B23137C934B5DCB998E...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 75C1B95A4D9514A57EB2DAE71817DC63CD3B5DF5...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 39F0EC1AE50B37E5F3196F09DAD3B211663CA268...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 2D14560CDCE6A75BB186DB758238651DDF5E0594...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 7A443CEE69B6B3777740E258084A7FC0035B1D49...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key F66AD0FF0E57C561615A0901CEE477135C5872B0...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 35B4FF23EA9477582C2A0AF12B80869C5C0102A6...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key E4CDFE50A2DA85D58C8A8C70CAA6A59611C7F07E...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 74C2F2CC05A0AB7D859839938934292D604F8BA2...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 3B794DE6D4320FCE594F4171279E7CF5D8D56EC8...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 77DC01C9971AC3C39A0626F72C089F09AC97B894...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 16DC688DF3EECC72323954237EC47C82A42D53A2...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 2C688B52E3FC0144B7484BABE3B3F44AC45EE0AA...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 22C903DE964E6FE321656E318DB9F8C18DF53602...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 0037505D6C3F595C37F5626AFD847358FF20E35C...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Locally signing key 688E8F82879D0E25CE541426150C200743ED46D8...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Disabling key 540DE7083B89314CF70EA6F0C1B1AD0DA80EBF3E...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET]   -> Disabling key FAA6840E8C3FC7F89BEE0DC8AC7AB10BCB6CDD17...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2021-01-01T17:28:41+0000] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2021-01-01T17:28:42+0000] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2021-01-01T17:28:42+0000] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:  31  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2021-01-01T17:28:42+0000] [ALPM-SCRIPTLET] gpg: depth: 1  valid:  31  signed:  81  trust: 0-, 0q, 0n, 28m, 0f, 0u
+[2021-01-01T17:28:42+0000] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  77  signed:  25  trust: 77-, 0q, 0n, 0m, 0f, 0u
+[2021-01-01T17:28:42+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2021-03-28
+[2021-01-01T17:28:42+0000] [ALPM] upgraded archlinux-keyring (20201028-1 -> 20201210-1)
+[2021-01-01T17:28:42+0000] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Locally signing key D8AFDDA07A5B6EDFA7D8CCDAD6D055F927843F1C...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 779CD2942629B7FA04AB8F172E89012331361F01...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 5559BC1A32B8F76B3FCCD9555FA5E5544F010D48...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 5A2257D19FF7E1E0E415968CE62F853100F0D0F0...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key D921CABED130A5690EF1896E81AF739EC0711BF1...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 684148BB25B49E986A4944C55184252D824B18E8...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+[2021-01-01T17:28:44+0000] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 65EEFE022108E2B708CBFCF7F9E712E59AF5F22A...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 1A60DC44245D06FEF90623D6EEEEE2EEEE2EEEEE...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 5357F3B111688D88C1D88119FCF2CB179205AC90...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 4D913AECD81726D9A6C74F0ADA6426DD215B37AD...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key FB871F0131FEA4FB5A9192B4C8880A6406361833...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 487EACC08557AD082088DABA1EB2638FF56C0C53...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 76B4192E902C0A52642C63C273B8ED52F1D357C1...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET]   -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2021-01-01T17:28:45+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2021-08-02
+[2021-01-01T17:28:45+0000] [ALPM] transaction completed
+[2021-01-01T17:28:45+0000] [PACMAN] starting full system upgrade
+[2021-01-01T17:29:30+0000] [ALPM] transaction started
+[2021-01-01T17:29:30+0000] [ALPM] upgraded readline (8.0.004-1 -> 8.1.0-2)
+[2021-01-01T17:29:30+0000] [ALPM] upgraded bash (5.0.018-1 -> 5.1.0-2)
+[2021-01-01T17:29:30+0000] [ALPM] installed file (5.39-1)
+[2021-01-01T17:29:30+0000] [ALPM] reinstalled findutils (4.7.0-2)
+[2021-01-01T17:29:30+0000] [ALPM] reinstalled gawk (5.1.0-1)
+[2021-01-01T17:29:30+0000] [ALPM] installed grep (3.6-1)
+[2021-01-01T17:29:30+0000] [ALPM] upgraded lz4 (1:1.9.2-2 -> 1:1.9.3-1)
+[2021-01-01T17:29:30+0000] [ALPM] upgraded util-linux-libs (2.36.1-3 -> 2.36.1-4)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded openssl (1.1.1.h-1 -> 1.1.1.i-2)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded libldap (2.4.54-1 -> 2.4.56-1)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded libtirpc (1.2.6-1 -> 1.3.1-1)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded libcap-ng (0.8-1 -> 0.8.2-1)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded audit (2.8.5-6 -> 2.8.5-9)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded pam (1.5.0-1 -> 1.5.0-2)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded systemd-libs (246.6-1.1 -> 247.2-1)
+[2021-01-01T17:29:31+0000] [ALPM] installed procps-ng (3.3.16-2)
+[2021-01-01T17:29:31+0000] [ALPM] installed sed (4.8-1)
+[2021-01-01T17:29:31+0000] [ALPM] installed tar (1.32-3)
+[2021-01-01T17:29:31+0000] [ALPM] upgraded glib2 (2.66.2-1 -> 2.66.4-1)
+[2021-01-01T17:29:32+0000] [ALPM] installed icu (67.1-1)
+[2021-01-01T17:29:32+0000] [ALPM] installed libxml2 (2.9.10-7)
+[2021-01-01T17:29:32+0000] [ALPM] installed libcroco (0.6.13-2)
+[2021-01-01T17:29:32+0000] [ALPM] installed gettext (0.21-1)
+[2021-01-01T17:29:32+0000] [ALPM] installed hwids (20200813.1-1)
+[2021-01-01T17:29:32+0000] [ALPM] installed kmod (27-2)
+[2021-01-01T17:29:32+0000] [ALPM] installed pciutils (3.7.0-1)
+[2021-01-01T17:29:32+0000] [ALPM] installed psmisc (23.3-2)
+[2021-01-01T17:29:32+0000] [ALPM] installed shadow (4.8.1-4)
+[2021-01-01T17:29:32+0000] [ALPM] installed util-linux (2.36.1-4)
+[2021-01-01T17:29:32+0000] [ALPM] installed less (563-1)
+[2021-01-01T17:29:32+0000] [ALPM] installed gzip (1.10-3)
+[2021-01-01T17:29:32+0000] [ALPM] installed licenses (20200427-1)
+[2021-01-01T17:29:32+0000] [ALPM] upgraded libarchive (3.4.3-1 -> 3.5.0-1)
+[2021-01-01T17:29:32+0000] [ALPM] upgraded libp11-kit (0.23.21-1 -> 0.23.22-1)
+[2021-01-01T17:29:32+0000] [ALPM] upgraded p11-kit (0.23.21-1 -> 0.23.22-1)
+[2021-01-01T17:29:32+0000] [ALPM] upgraded ca-certificates-mozilla (3.59-1 -> 3.60-1)
+[2021-01-01T17:29:32+0000] [ALPM] upgraded curl (7.73.0-1 -> 7.74.0-1)
+[2021-01-01T17:29:33+0000] [ALPM] upgraded gnutls (3.6.15-1 -> 3.7.0-1)
+[2021-01-01T17:29:33+0000] [ALPM] upgraded sqlite (3.33.0-2 -> 3.34.0-1)
+[2021-01-01T17:29:33+0000] [ALPM] upgraded gnupg (2.2.23-1 -> 2.2.25-1)
+[2021-01-01T17:29:33+0000] [ALPM] upgraded gpgme (1.15.0-1 -> 1.15.0-2)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python (3.8.6-1 -> 3.9.1-1)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-npyscreen (4.10.5-1 -> 4.10.5-6)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-urllib3 (1.25.10-2 -> 1.25.10-4)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-appdirs (1.4.4-1 -> 1.4.4-3)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-pyparsing (2.4.7-1 -> 2.4.7-3)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-six (1.15.0-1 -> 1.15.0-3)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-packaging (20.4-1 -> 20.8-2)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-ordered-set (4.0.2-1 -> 4.0.2-3)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-setuptools (1:50.3.2-1 -> 1:51.0.0-1)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-chardet (3.0.4-5 -> 3.0.4-7)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-idna (2.10-1 -> 2.10-3)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded python-requests (2.24.0-1 -> 2.25.1-1)
+[2021-01-01T17:29:34+0000] [ALPM] upgraded pacman-mirrors (4.16.5-1 -> 4.19.1-1)
+[2021-01-01T17:29:34+0000] [ALPM] reinstalled pacman (5.2.2-3)
+[2021-01-01T17:29:34+0000] [ALPM] installed device-mapper (2.02.187-3)
+[2021-01-01T17:29:34+0000] [ALPM] installed popt (1.18-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed json-c (0.15-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed argon2 (20190702-3)
+[2021-01-01T17:29:34+0000] [ALPM] installed cryptsetup (2.3.4-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed dbus (1.12.20-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed libmnl (1.0.4-3)
+[2021-01-01T17:29:34+0000] [ALPM] installed libnftnl (1.1.8-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed libnl (3.5.0-2)
+[2021-01-01T17:29:34+0000] [ALPM] installed libpcap (1.9.1-4)
+[2021-01-01T17:29:34+0000] [ALPM] installed libnfnetlink (1.0.1-4)
+[2021-01-01T17:29:34+0000] [ALPM] installed libnetfilter_conntrack (1.0.8-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed iptables (1:1.8.6-1)
+[2021-01-01T17:29:34+0000] [ALPM] installed kbd (2.3.0-2)
+[2021-01-01T17:29:34+0000] [ALPM] installed libelf (0.181-1)
+[2021-01-01T17:29:35+0000] [ALPM] installed libseccomp (2.5.1-2)
+[2021-01-01T17:29:35+0000] [ALPM] installed pcre2 (10.36-1)
+[2021-01-01T17:29:35+0000] [ALPM] warning: directory permissions differ on /var/log/journal/
+filesystem: 755  package: 2755
+[2021-01-01T17:29:35+0000] [ALPM] installed systemd (247.2-1)
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Initializing machine ID from random generator.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group sys with gid 3.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group mem with gid 8.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group ftp with gid 11.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group mail with gid 12.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group log with gid 19.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group smmsp with gid 25.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group proc with gid 26.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group games with gid 50.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group lock with gid 54.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group network with gid 90.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group floppy with gid 94.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group scanner with gid 96.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group power with gid 98.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group adm with gid 999.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group wheel with gid 998.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group kmem with gid 997.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group tty with gid 5.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group utmp with gid 996.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group audio with gid 995.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group disk with gid 994.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group input with gid 993.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group kvm with gid 992.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group lp with gid 991.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group optical with gid 990.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group render with gid 989.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group storage with gid 988.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group uucp with gid 987.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group video with gid 986.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group users with gid 985.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group systemd-journal with gid 984.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group rfkill with gid 983.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group bin with gid 1.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user bin (n/a) with uid 1 and gid 1.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group daemon with gid 2.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user daemon (n/a) with uid 2 and gid 2.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user mail (n/a) with uid 8 and gid 12.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user ftp (n/a) with uid 14 and gid 11.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group http with gid 33.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user http (n/a) with uid 33 and gid 33.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group nobody with gid 65534.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user nobody (Nobody) with uid 65534 and gid 65534.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group dbus with gid 81.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user dbus (System Message Bus) with uid 81 and gid 81.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group systemd-journal-remote with gid 982.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user systemd-journal-remote (systemd Journal Remote) with uid 982 and gid 982.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group systemd-network with gid 981.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user systemd-network (systemd Network Management) with uid 981 and gid 981.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group systemd-resolve with gid 980.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user systemd-resolve (systemd Resolver) with uid 980 and gid 980.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group systemd-timesync with gid 979.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user systemd-timesync (systemd Time Synchronization) with uid 979 and gid 979.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group systemd-coredump with gid 978.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user systemd-coredump (systemd Core Dumper) with uid 978 and gid 978.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating group uuidd with gid 68.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Creating user uuidd (n/a) with uid 68 and gid 68.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service → /usr/lib/systemd/system/getty@.service.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target → /usr/lib/systemd/system/remote-fs.target.
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET] :: Append 'init=/usr/lib/systemd/systemd' to your kernel command line in your
+[2021-01-01T17:29:35+0000] [ALPM-SCRIPTLET]    bootloader to replace sysvinit with systemd, or install systemd-sysvcompat
+[2021-01-01T17:29:35+0000] [ALPM] installed systemd-sysvcompat (247.2-1)
+[2021-01-01T17:29:35+0000] [ALPM] installed iputils (20200821-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed iproute2 (5.9.0-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed base (2-2)
+[2021-01-01T17:29:36+0000] [ALPM] installed m4 (1.4.18-3)
+[2021-01-01T17:29:36+0000] [ALPM] installed diffutils (3.7-3)
+[2021-01-01T17:29:36+0000] [ALPM] installed autoconf (2.69-7)
+[2021-01-01T17:29:36+0000] [ALPM] installed automake (1.16.2-3)
+[2021-01-01T17:29:36+0000] [ALPM] installed libmicrohttpd (0.9.71-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed elfutils (0.181-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed binutils (2.35-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed bison (3.7.2-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed fakeroot (1.25.3-1)
+[2021-01-01T17:29:36+0000] [ALPM] installed flex (2.6.4-3)
+[2021-01-01T17:29:36+0000] [ALPM] installed libmpc (1.1.0-2)
+[2021-01-01T17:29:38+0000] [ALPM] installed gcc (10.2.0-1)
+[2021-01-01T17:29:38+0000] [ALPM] installed groff (1.22.4-3)
+[2021-01-01T17:29:38+0000] [ALPM] installed libtool (2.4.6+44+gb9b44533-14)
+[2021-01-01T17:29:38+0000] [ALPM] installed texinfo (6.7-3)
+[2021-01-01T17:29:38+0000] [ALPM] installed gc (8.0.4-4)
+[2021-01-01T17:29:39+0000] [ALPM] installed guile (2.2.6-2)
+[2021-01-01T17:29:39+0000] [ALPM] installed make (4.3-3)
+[2021-01-01T17:29:39+0000] [ALPM] installed patch (2.7.6-8)
+[2021-01-01T17:29:39+0000] [ALPM] installed pkgconf (1.7.3-1)
+[2021-01-01T17:29:39+0000] [ALPM] installed sudo (1.9.4.p2-2)
+[2021-01-01T17:29:39+0000] [ALPM] installed which (2.21-5)
+[2021-01-01T17:29:39+0000] [ALPM] transaction completed
+[2021-01-01T17:29:39+0000] [ALPM] running '20-systemd-sysusers.hook'...
+[2021-01-01T17:29:39+0000] [ALPM] running '30-systemd-catalog.hook'...
+[2021-01-01T17:29:39+0000] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2021-01-01T17:29:39+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-01T17:29:39+0000] [ALPM] running '30-systemd-hwdb.hook'...
+[2021-01-01T17:29:39+0000] [ALPM] running '30-systemd-sysctl.hook'...
+[2021-01-01T17:29:39+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-01T17:29:39+0000] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2021-01-01T17:29:40+0000] [ALPM] running '30-systemd-udev-reload.hook'...
+[2021-01-01T17:29:40+0000] [ALPM-SCRIPTLET]   Skipped: Device manager is not running.
+[2021-01-01T17:29:40+0000] [ALPM] running '30-systemd-update.hook'...
+[2021-01-01T17:29:40+0000] [ALPM] running '40-update-ca-trust.hook'...
+[2021-01-01T17:29:41+0000] [ALPM] running 'dbus-reload.hook'...
+[2021-01-01T17:29:41+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-01T17:29:41+0000] [ALPM] running 'pacman-mirrors-upgrade.hook'...
+[2021-01-01T17:29:56+0000] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Downloading mirrors from repo.manjaro.org
+[2021-01-01T17:29:56+0000] [ALPM-SCRIPTLET] hint: use `pacman-mirrors` to generate and update your pacman mirrorlist.
+[2021-01-01T17:29:56+0000] [ALPM] running 'texinfo-install.hook'...
+[2021-01-01T17:29:58+0000] [PACMAN] Running 'pacman -Syyu --noconfirm'
+[2021-01-01T17:29:58+0000] [PACMAN] synchronizing package lists
+[2021-01-01T17:30:00+0000] [PACMAN] starting full system upgrade
+[2021-01-01T17:30:01+0000] [PACMAN] Running 'pacman -Sy --noconfirm archlinux-keyring'
+[2021-01-01T17:30:01+0000] [PACMAN] synchronizing package lists
+[2021-01-01T17:30:01+0000] [ALPM] transaction started
+[2021-01-01T17:30:01+0000] [ALPM] reinstalled archlinux-keyring (20201210-1)
+[2021-01-01T17:30:02+0000] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Locally signing key D8AFDDA07A5B6EDFA7D8CCDAD6D055F927843F1C...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key 684148BB25B49E986A4944C55184252D824B18E8...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key 5357F3B111688D88C1D88119FCF2CB179205AC90...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2021-01-01T17:30:03+0000] [ALPM-SCRIPTLET]   -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key FB871F0131FEA4FB5A9192B4C8880A6406361833...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 487EACC08557AD082088DABA1EB2638FF56C0C53...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 76B4192E902C0A52642C63C273B8ED52F1D357C1...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 5A2257D19FF7E1E0E415968CE62F853100F0D0F0...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 5559BC1A32B8F76B3FCCD9555FA5E5544F010D48...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 4D913AECD81726D9A6C74F0ADA6426DD215B37AD...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 779CD2942629B7FA04AB8F172E89012331361F01...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key D921CABED130A5690EF1896E81AF739EC0711BF1...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 1A60DC44245D06FEF90623D6EEEEE2EEEE2EEEEE...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 65EEFE022108E2B708CBFCF7F9E712E59AF5F22A...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2021-01-01T17:30:04+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2021-08-02
+[2021-01-01T17:30:04+0000] [ALPM] transaction completed
+[2021-01-01T17:30:04+0000] [ALPM] running '30-systemd-update.hook'...
+[2021-01-01T17:30:05+0000] [PACMAN] Running 'pacman -Sy --noconfirm archlinuxcn-keyring'
+[2021-01-01T17:30:05+0000] [PACMAN] synchronizing package lists
+[2021-01-01T17:30:06+0000] [ALPM] transaction started
+[2021-01-01T17:30:06+0000] [ALPM] installed archlinuxcn-keyring (20201201-1)
+[2021-01-01T17:30:06+0000] [ALPM-SCRIPTLET] ==> Appending keys from archlinuxcn.gpg...
+[2021-01-01T17:30:06+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.23 < 2.2.25)
+[2021-01-01T17:30:07+0000] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2021-01-01T17:30:07+0000] [ALPM-SCRIPTLET]   -> Locally signing key 90403E12F4CE5E0E950E4AD2C96492E347202001...
+[2021-01-01T17:30:07+0000] [ALPM-SCRIPTLET]   -> Locally signing key 4A6D297E6F74638E4D5F8E99152AC7B5F7608B26...
+[2021-01-01T17:30:07+0000] [ALPM-SCRIPTLET]   -> Locally signing key 4CFF42599833CF3AE98A2F098850CBC20940E3F9...
+[2021-01-01T17:30:07+0000] [ALPM-SCRIPTLET]   -> Locally signing key B5971F2C5C10A9A08C60030F786C63F330D7CB92...
+[2021-01-01T17:30:08+0000] [ALPM-SCRIPTLET]   -> Locally signing key 22D8A46B2CDA6605A1C0CFD1E060B3E215CE49BB...
+[2021-01-01T17:30:09+0000] [ALPM-SCRIPTLET]   -> Locally signing key 57957BAD5D038B07C28EF49A15B26377262268C1...
+[2021-01-01T17:30:09+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1F255DC97A5431001F9D01F8CDABD988DD8AD93B...
+[2021-01-01T17:30:09+0000] [ALPM-SCRIPTLET]   -> Locally signing key DC6FB7FC761E848F76E98B4FCCAF35548C65530F...
+[2021-01-01T17:30:10+0000] [ALPM-SCRIPTLET]   -> Locally signing key 0285FB6900D102030550F20A34908FFBC0BFAC35...
+[2021-01-01T17:30:10+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1B53ED6B05A88B45FE02AE6186CC4303D870877E...
+[2021-01-01T17:30:10+0000] [ALPM-SCRIPTLET]   -> Locally signing key BEA7E7644AE093AB557E521A26D9876AC0719A0B...
+[2021-01-01T17:30:11+0000] [ALPM-SCRIPTLET]   -> Locally signing key 243C14E5339E1B88EDCB29C595FC83B3084A5ADD...
+[2021-01-01T17:30:11+0000] [ALPM-SCRIPTLET]   -> Locally signing key 481C4474AF1572165AE4C6AF3FDDD575826C5C30...
+[2021-01-01T17:30:12+0000] [ALPM-SCRIPTLET]   -> Locally signing key A182F28FA78F70601453137BCF82E29597321B63...
+[2021-01-01T17:30:12+0000] [ALPM-SCRIPTLET]   -> Locally signing key 0AABCAF6773D5B6E1F4ECF794E72AF09097DAE2E...
+[2021-01-01T17:30:13+0000] [ALPM-SCRIPTLET]   -> Locally signing key 43A253584139DC6D923B6EFC34F1E61A0EEB4F51...
+[2021-01-01T17:30:13+0000] [ALPM-SCRIPTLET]   -> Locally signing key 9AD42FE922425C9D93E60B43BAD2804227A0AF05...
+[2021-01-01T17:30:13+0000] [ALPM-SCRIPTLET]   -> Locally signing key 87F2E316E0ABC98B9DE8D4EF042FD810600954EF...
+[2021-01-01T17:30:13+0000] [ALPM-SCRIPTLET]   -> Locally signing key 99399D88F7B752BF364CD485A85E3925A6211F05...
+[2021-01-01T17:30:14+0000] [ALPM-SCRIPTLET]   -> Locally signing key 9BE836747F3533EAABA99F1485AEA2926167AD32...
+[2021-01-01T17:30:14+0000] [ALPM-SCRIPTLET]   -> Locally signing key 53641635F498CDD60227A7ED0832F151DB0FB18E...
+[2021-01-01T17:30:14+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1C874172781545C15399D4CF7E9BA67AD5E38E78...
+[2021-01-01T17:30:14+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1D5AB52A241CC492A724FE14E8D79E63E3D142F3...
+[2021-01-01T17:30:15+0000] [ALPM-SCRIPTLET]   -> Locally signing key 83F817213361BF5F02E7E124F9F9FA97A403F63E...
+[2021-01-01T17:30:15+0000] [ALPM-SCRIPTLET]   -> Locally signing key A0B55B12351C08FED81DAAF4840A50A14EEF0D58...
+[2021-01-01T17:30:16+0000] [ALPM-SCRIPTLET]   -> Locally signing key 708DFB13CBED9AB39449DBFB41C04120C297B594...
+[2021-01-01T17:30:16+0000] [ALPM-SCRIPTLET]   -> Locally signing key D88390B2991F8242FABD2A3C07F45E2A1937DD32...
+[2021-01-01T17:30:16+0000] [ALPM-SCRIPTLET]   -> Locally signing key 38009E1FD96C320609BF05870A5BAD445D80C1CC...
+[2021-01-01T17:30:17+0000] [ALPM-SCRIPTLET]   -> Locally signing key 9AF7EED0F7CE3639965C85619BA8AAAAAAAAAAAA...
+[2021-01-01T17:30:17+0000] [ALPM-SCRIPTLET]   -> Locally signing key F357BC80BE28C292B40ECEC8997995DF61A0959A...
+[2021-01-01T17:30:18+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1C9084FAFE017CEAE4AF59C91DF6CF104433578C...
+[2021-01-01T17:30:18+0000] [ALPM-SCRIPTLET]   -> Locally signing key 356690A1E7404E30D0E902B2E64D049594A54F54...
+[2021-01-01T17:30:18+0000] [ALPM-SCRIPTLET]   -> Locally signing key 86EEEC214D245137446F4AB195304B04071CCDB4...
+[2021-01-01T17:30:18+0000] [ALPM-SCRIPTLET]   -> Locally signing key 1FDBDCE2D26BD8F100EE2E73B1B9AAD8BE7E7326...
+[2021-01-01T17:30:19+0000] [ALPM-SCRIPTLET]   -> Locally signing key F905932C85D705FD2A3CC9E47C63370395FF0792...
+[2021-01-01T17:30:19+0000] [ALPM-SCRIPTLET]   -> Locally signing key 4B1DE545A801D4549BFD3FEF90CB3D62C13D4796...
+[2021-01-01T17:30:19+0000] [ALPM-SCRIPTLET]   -> Locally signing key 3167205DC1F2582F226007FAB012733142D79E59...
+[2021-01-01T17:30:20+0000] [ALPM-SCRIPTLET]   -> Locally signing key 02E02B85AF209AA00F784A1DD48313B447CD9E46...
+[2021-01-01T17:30:20+0000] [ALPM-SCRIPTLET]   -> Locally signing key 48ADDE10F27BAFB47BB0CCAF2D2595A00D08ACE0...
+[2021-01-01T17:30:20+0000] [ALPM-SCRIPTLET]   -> Locally signing key 21E347C47A6A13CDE64713CBAE62544C55609060...
+[2021-01-01T17:30:21+0000] [ALPM-SCRIPTLET]   -> Locally signing key 7028E1F320C45EE98473B1C35F1BC1A1BF2B11D0...
+[2021-01-01T17:30:21+0000] [ALPM-SCRIPTLET]   -> Locally signing key 5984EA8F3C6C92945EB2EE40BE378C0A19C6421B...
+[2021-01-01T17:30:21+0000] [ALPM-SCRIPTLET]   -> Locally signing key 7B314BE77DBCA20E02DDBBC050BF8B712DCAD7EA...
+[2021-01-01T17:30:21+0000] [ALPM-SCRIPTLET]   -> Locally signing key 2AC4CFDB42972D38F105800BC0EB1AA4536A8318...
+[2021-01-01T17:30:22+0000] [ALPM-SCRIPTLET]   -> Locally signing key D87D10B4E132FFA40DEC232B7A3A9FA6E4FD4A8D...
+[2021-01-01T17:30:22+0000] [ALPM-SCRIPTLET]   -> Locally signing key CF73A9AE20AD483CE51130E0303A369BE11E4BE7...
+[2021-01-01T17:30:22+0000] [ALPM-SCRIPTLET]   -> Locally signing key 688E1D093C3638F588890D4450268311C7AD3F62...
+[2021-01-01T17:30:23+0000] [ALPM-SCRIPTLET]   -> Locally signing key 00e716120987a801cd25070828d10c49a44f261e...
+[2021-01-01T17:30:23+0000] [ALPM-SCRIPTLET]   -> Locally signing key C41D545A576AC1FE4DBE90C9B6CF41D1879E8002...
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET]   -> Locally signing key 504357523094066C67E56CF58D99AA5CAD3908B0...
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET]   -> Disabling key 86F797B20DE062D8540D6D243CD72EBFE6DE17D8...
+[2021-01-01T17:30:24+0000] [ALPM-SCRIPTLET]   -> Disabling key 2A83ADADD054CB3C4CF7DF9D2D1E72461CCBBA98...
+[2021-01-01T17:30:25+0000] [ALPM-SCRIPTLET]   -> Disabling key 417A75A94D7DCA0FE37EBA89BF971BB9D4D40A3B...
+[2021-01-01T17:30:25+0000] [ALPM-SCRIPTLET]   -> Disabling key 24F24E986EB2FE628DBDD3CFB9E701221C820178...
+[2021-01-01T17:30:25+0000] [ALPM-SCRIPTLET]   -> Disabling key AA0CBF3859E580B97D9F04638FDE3D8FC99F40AE...
+[2021-01-01T17:30:25+0000] [ALPM-SCRIPTLET]   -> Disabling key A373F9E056E8E4912F842CF596D6420DD2E3A1F0...
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET]   -> Disabling key 4E43CCE7ADF712FF75C7B4A5EF50AB125C83BB2D...
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: public key CF66D153D884358F is 16 seconds newer than the signature
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:  76  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: depth: 1  valid:  76  signed:  81  trust: 0-, 0q, 0n, 73m, 0f, 0u
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  74  signed:  24  trust: 74-, 0q, 0n, 0m, 0f, 0u
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2021-03-06
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: public key CF66D153D884358F is 16 seconds newer than the signature
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:  76  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: depth: 1  valid:  76  signed:  81  trust: 0-, 0q, 0n, 73m, 0f, 0u
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  74  signed:  24  trust: 74-, 0q, 0n, 0m, 0f, 0u
+[2021-01-01T17:30:26+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2021-03-06
+[2021-01-01T17:30:26+0000] [ALPM] transaction completed
+[2021-01-01T17:30:26+0000] [ALPM] running '30-systemd-update.hook'...
+[2021-01-01T17:30:27+0000] [PACMAN] Running 'pacman -Sy --noconfirm yay'
+[2021-01-01T17:30:27+0000] [PACMAN] synchronizing package lists
+[2021-01-01T17:30:30+0000] [ALPM] transaction started
+[2021-01-01T17:30:30+0000] [ALPM] installed perl-error (0.17029-2)
+[2021-01-01T17:30:30+0000] [ALPM] installed perl-timedate (2.33-2)
+[2021-01-01T17:30:30+0000] [ALPM] installed perl-mailtools (2.21-4)
+[2021-01-01T17:30:31+0000] [ALPM] installed git (2.29.2-1)
+[2021-01-01T17:30:31+0000] [ALPM] installed yay (10.1.2-1)
+[2021-01-01T17:30:31+0000] [ALPM] transaction completed
+[2021-01-01T17:30:31+0000] [ALPM] running '20-systemd-sysusers.hook'...
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] Creating group git with gid 977.
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] Creating user git (git daemon user) with uid 977 and gid 977.
+[2021-01-01T17:30:31+0000] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-01T17:30:31+0000] [ALPM] running '30-systemd-update.hook'...
+[2021-01-01T17:30:31+0000] [ALPM] running 'detect-old-perl-modules.hook'...
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] perl: warning: Setting locale failed.
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] perl: warning: Please check that your locale settings:
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] 	LANGUAGE = (unset),
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] 	LC_ALL = (unset),
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] 	LANG = "zh_CN.UTF-8"
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET]     are supported and installed on your system.
+[2021-01-01T17:30:31+0000] [ALPM-SCRIPTLET] perl: warning: Falling back to the standard locale ("C").
+[2021-01-01T17:30:31+0000] [PACMAN] Running 'pacman -Sy --noconfirm gawk'
+[2021-01-01T17:30:31+0000] [PACMAN] synchronizing package lists
+[2021-01-01T17:30:32+0000] [ALPM] transaction started
+[2021-01-01T17:30:32+0000] [ALPM] reinstalled gawk (5.1.0-1)
+[2021-01-01T17:30:32+0000] [ALPM] transaction completed
+[2021-01-01T17:30:32+0000] [ALPM] running '30-systemd-update.hook'...
+[2021-01-01T17:30:32+0000] [ALPM] running 'texinfo-install.hook'...
+[2021-01-02T01:30:35+0800] [PACMAN] Running 'pacman -Sy --noconfirm po4a'
+[2021-01-02T01:30:35+0800] [PACMAN] synchronizing package lists
+[2021-01-02T01:30:38+0800] [ALPM] transaction started
+[2021-01-02T01:30:38+0800] [ALPM] installed perl-yaml-tiny (1.73-4)
+[2021-01-02T01:30:38+0800] [ALPM] installed perl-mime-charset (1.012.2-7)
+[2021-01-02T01:30:38+0800] [ALPM] installed libdatrie (0.2.12-2)
+[2021-01-02T01:30:38+0800] [ALPM] installed libthai (0.1.28-2)
+[2021-01-02T01:30:38+0800] [ALPM] installed perl-unicode-linebreak (2019.001-3)
+[2021-01-02T01:30:38+0800] [ALPM] installed po4a (0.62-1)
+[2021-01-02T01:30:38+0800] [ALPM] transaction completed
+[2021-01-02T01:30:38+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T01:30:38+0800] [ALPM] running 'detect-old-perl-modules.hook'...
+[2021-01-02T01:31:16+0800] [PACMAN] Running 'pacman -S --noconfirm lolcat'
+[2021-01-02T01:31:22+0800] [ALPM] transaction started
+[2021-01-02T01:31:22+0800] [ALPM] installed libyaml (0.2.5-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed rubygems (3.1.4-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-reline (0.1.6-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-irb (1.2.7-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby (2.7.2-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rdoc (6.2.0-2)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rspec-support (3.8.0-3)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rspec-core (3.8.0-3)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-diff-lcs (1.4.4-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rspec-expectations (3.8.1-3)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rspec-mocks (3.8.0-3)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rspec (3.8.0-3)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-rainbow (3.0.0-5)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-tins (1.26.0-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-term-ansicolor (1.7.1-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-paint (2.2.0-1)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-optimist (3.0.0-2)
+[2021-01-02T01:31:22+0800] [ALPM] installed ruby-manpages (0.6.1-3)
+[2021-01-02T01:31:22+0800] [ALPM] installed lolcat (100.0.0-2)
+[2021-01-02T01:31:22+0800] [ALPM] transaction completed
+[2021-01-02T01:31:22+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T01:32:47+0800] [PACMAN] Running 'pacman -S'
+[2021-01-02T01:32:57+0800] [PACMAN] Running 'pacman -S openssh'
+[2021-01-02T01:33:00+0800] [ALPM] transaction started
+[2021-01-02T01:33:00+0800] [ALPM] installed libedit (20191231_3.1-2)
+[2021-01-02T01:33:00+0800] [ALPM] installed dnssec-anchors (20190629-3)
+[2021-01-02T01:33:00+0800] [ALPM] installed ldns (1.7.1-2)
+[2021-01-02T01:33:00+0800] [ALPM] installed openssh (8.4p1-2)
+[2021-01-02T01:33:00+0800] [ALPM] transaction completed
+[2021-01-02T01:33:00+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2021-01-02T01:33:00+0800] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-02T01:33:00+0800] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2021-01-02T01:33:00+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T01:35:28+0800] [PACMAN] Running 'pacman -S git neofetch'
+[2021-01-02T01:35:35+0800] [ALPM] transaction started
+[2021-01-02T01:35:36+0800] [ALPM] reinstalled git (2.29.2-1)
+[2021-01-02T01:35:36+0800] [ALPM] installed neofetch (7.1.0-2)
+[2021-01-02T01:35:36+0800] [ALPM] transaction completed
+[2021-01-02T01:35:36+0800] [ALPM] running '20-systemd-sysusers.hook'...
+[2021-01-02T01:35:36+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2021-01-02T01:35:36+0800] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-02T01:35:36+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T01:35:49+0800] [PACMAN] Running 'pacman -S vim'
+[2021-01-02T01:35:53+0800] [ALPM] transaction started
+[2021-01-02T01:35:54+0800] [ALPM] installed vim-runtime (8.2.1989-3)
+[2021-01-02T01:35:54+0800] [ALPM] installed gpm (1.20.7.r38.ge82d1a6-3)
+[2021-01-02T01:35:54+0800] [ALPM] installed vim (8.2.1989-3)
+[2021-01-02T01:35:54+0800] [ALPM] transaction completed
+[2021-01-02T01:35:54+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2021-01-02T01:35:54+0800] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2021-01-02T01:35:54+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T01:35:54+0800] [ALPM] running 'texinfo-install.hook'...
+[2021-01-02T01:42:39+0800] [PACMAN] Running 'pacman -Syu'
+[2021-01-02T01:42:39+0800] [PACMAN] synchronizing package lists
+[2021-01-02T01:42:40+0800] [PACMAN] starting full system upgrade
+[2021-01-02T01:42:47+0800] [PACMAN] Running 'pacman -S git'
+[2021-01-02T01:42:54+0800] [PACMAN] Running 'pacman -S llvm'
+[2021-01-02T01:44:09+0800] [PACMAN] Running 'pacman -S hostname'
+[2021-01-02T08:42:06+0800] [PACMAN] Running 'pacman -S python3 cpio'
+[2021-01-02T08:42:12+0800] [ALPM] transaction started
+[2021-01-02T08:42:13+0800] [ALPM] reinstalled python (3.9.1-1)
+[2021-01-02T08:42:13+0800] [ALPM] installed cpio (2.13-2)
+[2021-01-02T08:42:13+0800] [ALPM] transaction completed
+[2021-01-02T08:42:13+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T08:42:13+0800] [ALPM] running 'texinfo-install.hook'...
+[2021-01-02T09:24:23+0800] [PACMAN] Running 'pacman -S python-pip'
+[2021-01-02T09:24:29+0800] [ALPM] transaction started
+[2021-01-02T09:24:29+0800] [ALPM] installed python-msgpack (1.0.0-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-cachecontrol (0.12.6-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-colorama (0.4.4-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-contextlib2 (0.6.0.post1-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-distlib (0.3.1-2)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-distro (1.5.0-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-webencodings (0.5.1-6)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-html5lib (1.1-5)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-toml (0.10.2-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-pep517 (0.9.1-3)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-progress (1.5-5)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-retrying (1.3.3-9)
+[2021-01-02T09:24:29+0800] [ALPM] installed python-resolvelib (0.5.3-1)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-ply (3.11-7)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-pycparser (2.20-3)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-cffi (1.14.4-1)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-asn1crypto (1.4.0-3)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-cryptography (3.3.1-1)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-pyopenssl (20.0.1-1)
+[2021-01-02T09:24:30+0800] [ALPM] installed python-pip (20.2.2-1)
+[2021-01-02T09:24:30+0800] [ALPM] transaction completed
+[2021-01-02T09:24:30+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T16:40:43+0800] [PACMAN] Running 'pacman -S aric2'
+[2021-01-02T16:40:53+0800] [PACMAN] Running 'pacman -S axel'
+[2021-01-02T16:41:03+0800] [ALPM] transaction started
+[2021-01-02T16:41:03+0800] [ALPM] installed axel (2.17.10-1)
+[2021-01-02T16:41:03+0800] [ALPM] transaction completed
+[2021-01-02T16:41:03+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T16:41:37+0800] [PACMAN] Running 'pacman -S wget'
+[2021-01-02T16:41:44+0800] [ALPM] transaction started
+[2021-01-02T16:41:44+0800] [ALPM] installed wget (1.20.3-3)
+[2021-01-02T16:41:44+0800] [ALPM] transaction completed
+[2021-01-02T16:41:44+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T16:41:44+0800] [ALPM] running 'texinfo-install.hook'...
+[2021-01-02T16:51:18+0800] [PACMAN] Running 'pacman -S unzip'
+[2021-01-02T16:51:25+0800] [ALPM] transaction started
+[2021-01-02T16:51:25+0800] [ALPM] installed unzip (6.0-14)
+[2021-01-02T16:51:25+0800] [ALPM] transaction completed
+[2021-01-02T16:51:25+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T16:54:57+0800] [PACMAN] Running 'pacman -S python-protobuf'
+[2021-01-02T16:55:06+0800] [ALPM] transaction started
+[2021-01-02T16:55:06+0800] [ALPM] installed protobuf (3.12.4-3)
+[2021-01-02T16:55:06+0800] [ALPM] installed python-protobuf (3.12.4-3)
+[2021-01-02T16:55:06+0800] [ALPM] transaction completed
+[2021-01-02T16:55:06+0800] [ALPM] running '30-systemd-update.hook'...
+[2021-01-02T18:03:33+0800] [PACMAN] Running 'pacman -S vi vim'
+[2021-01-02T18:03:46+0800] [ALPM] transaction started
+[2021-01-02T18:03:46+0800] [ALPM] installed vi (1:070224-4)
+[2021-01-02T18:03:46+0800] [ALPM] reinstalled vim (8.2.1989-3)
+[2021-01-02T18:03:46+0800] [ALPM] transaction completed
+[2021-01-02T18:03:46+0800] [ALPM] running '30-systemd-update.hook'...

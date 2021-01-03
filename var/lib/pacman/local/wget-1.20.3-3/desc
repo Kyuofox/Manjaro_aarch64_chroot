@@ -1,0 +1,47 @@
+%NAME%
+wget
+
+%VERSION%
+1.20.3-3
+
+%BASE%
+wget
+
+%DESC%
+Network utility to retrieve files from the Web
+
+%URL%
+https://www.gnu.org/software/wget/wget.html
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1588798925
+
+%INSTALLDATE%
+1609576904
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%SIZE%
+3061560
+
+%LICENSE%
+GPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+gnutls
+libidn2
+libutil-linux
+libpsl
+pcre2
+
+%OPTDEPENDS%
+ca-certificates: HTTPS downloads
+

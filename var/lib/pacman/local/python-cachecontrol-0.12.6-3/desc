@@ -1,0 +1,46 @@
+%NAME%
+python-cachecontrol
+
+%VERSION%
+0.12.6-3
+
+%BASE%
+python-cachecontrol
+
+%DESC%
+httplib2 caching for requests
+
+%URL%
+https://github.com/ionrock/cachecontrol
+
+%ARCH%
+any
+
+%BUILDDATE%
+1607043117
+
+%INSTALLDATE%
+1609550669
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%SIZE%
+107771
+
+%REASON%
+1
+
+%LICENSE%
+Apache
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+python-msgpack
+python-requests
+
+%OPTDEPENDS%
+python-lockfile: for the FileCache
+

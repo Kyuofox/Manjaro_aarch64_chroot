@@ -1,0 +1,54 @@
+%NAME%
+ruby
+
+%VERSION%
+2.7.2-1
+
+%BASE%
+ruby
+
+%DESC%
+An object-oriented language for quick and easy programming
+
+%URL%
+https://www.ruby-lang.org/en/
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1601922417
+
+%INSTALLDATE%
+1609522282
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%SIZE%
+13829272
+
+%REASON%
+1
+
+%LICENSE%
+BSD
+custom
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gdbm
+openssl
+libffi
+libyaml
+gmp
+zlib
+rubygems
+ruby-irb
+
+%OPTDEPENDS%
+ruby-docs: Ruby documentation
+tk: for Ruby/TK
+

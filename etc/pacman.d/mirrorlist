@@ -1,0 +1,4 @@
+#Server = https://mirror.archlinuxarm.org/$arch/$repo
+#Server = https://mirrors.bfsu.edu.cn/archlinuxarm/$arch/$repo
+#Server = https://mirrors.huaweicloud.com/manjaro/arm-stable/$repo/$arch
+Server = https://mirrors.bfsu.edu.cn/manjaro/arm-stable/$repo/$arch

@@ -1,0 +1,42 @@
+%NAME%
+archlinuxcn-keyring
+
+%VERSION%
+20201201-1
+
+%BASE%
+archlinuxcn-keyring
+
+%DESC%
+Arch Linux CN PGP keyring
+
+%URL%
+https://github.com/archlinuxcn/repo
+
+%ARCH%
+any
+
+%BUILDDATE%
+1606804642
+
+%INSTALLDATE%
+1609522206
+
+%PACKAGER%
+Jiachen YANG <farseerfc@archlinux.org>
+
+%SIZE%
+403165
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+archlinux-keyring
+
+%OPTDEPENDS%
+pkgstats: install to submit package usage statistics
+

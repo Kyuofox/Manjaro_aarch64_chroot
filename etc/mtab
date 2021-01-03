@@ -1,0 +1,6 @@
+/dev/block/dm-5 / f2fs rw,lazytime,seclabel,noatime,background_gc=on,nodiscard,no_heap,user_xattr,inline_xattr,acl,inline_data,inline_dentry,flush_merge,extent_cache,mode=adaptive,active_logs=6,reserve_root=32768,resuid=0,resgid=1065,inlinecrypt,alloc_mode=default,fsync_mode=nobarrier 0 0
+proc /proc proc rw,relatime,gid=3009,hidepid=2 0 0
+sys /sys sysfs rw,seclabel,relatime 0 0
+tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,size=5921640k,nr_inodes=1480410,mode=755 0 0
+tmpfs /dev/shm tmpfs rw,seclabel,nosuid,nodev,relatime 0 0
+devpts /dev/pts devpts rw,seclabel,relatime,mode=600,ptmxmode=000 0 0

@@ -1,0 +1,15 @@
+root::14871::::::
+bin:!*:18628::::::
+daemon:!*:18628::::::
+mail:!*:18628::::::
+ftp:!*:18628::::::
+http:!*:18628::::::
+nobody:!*:18628::::::
+dbus:!*:18628::::::
+systemd-journal-remote:!*:18628::::::
+systemd-network:!*:18628::::::
+systemd-resolve:!*:18628::::::
+systemd-timesync:!*:18628::::::
+systemd-coredump:!*:18628::::::
+uuidd:!*:18628::::::
+kyuofox:$6$f0omW9/6khiOYir8$oDb25wLrsZMcVt5HTci973OCnSCR0OvHEL49RmUA2UZLmV.EF3a8Ria37JSSgyJx81g0agk5xc9aIqpiffId70:18628:0:99999:7:::
